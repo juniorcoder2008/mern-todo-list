@@ -1,4 +1,4 @@
-import Todo from "../models/todoSchema";
+import Todo from "../models/todoSchema.js";
 
 export const createTodo = (req, res) => {
   const data = req.body;
